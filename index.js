@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString("I am a senior Business Administration student with a focus on Data Analysis, currently pursuing my degree at [Your University Name]. While my academic background is rooted in business, my passion lies in coding, primarily in Python. Over the years, I've delved deep into the world of deep learning, mastering the art of building and fine-tuning models using tools like Hugging Face and llama.cpp. My primary focus is on Large Language Models (LLMs). As I approach graduation, I'm eager to embark on a career as a Machine Learning Engineer, Deep Learning Engineer, or Data Scientist, with a keen interest in any role centered around deep learning.") //Add your own tagline
+  .typeString("I am a senior Business Administration student with a focus on Data Analysis, currently pursuing my degree at California State University, Fresno. While my academic background is rooted in business, my passion lies in coding, primarily in Python. Over the years, I've delved deep into the world of deep learning, mastering the art of building and fine-tuning models using tools like Hugging Face and llama.cpp. My primary focus is on Large Language Models (LLMs). As I approach graduation, I'm eager to embark on a career as a Machine Learning Engineer, Deep Learning Engineer, or Data Scientist, with a keen interest in any role centered around deep learning.") //Add your own tagline
   .pauseFor(3000)
   .start()
 
