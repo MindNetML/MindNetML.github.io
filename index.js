@@ -17,18 +17,18 @@ var granimInstance = new Granim({
     direction: 'top-bottom',
     isPausedWhenNotInView: true,
     image : {
-        source: 'assets/motherboard.jpg', //change image for intro section if desired
+        source: 'assets/city.jpg', //change image for intro section if desired
         blendingMode: 'multiply',
     },
     states : {
         "default-state": {
             gradients: [
-                ['#29323c', '#485563'],
-                ['#FF6B6B', '#556270'],
-                ['#80d3fe', '#7ea0c4'],
-                ['#f0ab51', '#eceba3']
-            ],
-            transitionSpeed: 8000
+              ['#f0ab51', '#eceba3'],  // Morning to midday
+              ['#dcdcdc', '#c7c7c7'],  // Midday to afternoon
+              ['#FF6B6B', '#556270'],  // Afternoon to evening
+              ['#5a6473', '#707c8b']   // Evening to night
+          ],
+            transitionSpeed: 4000
         }
     }
 });
